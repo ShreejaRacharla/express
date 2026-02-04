@@ -9,6 +9,6 @@ app.get("/about", (req, res) => {
   res.send("Hi! This is About Page");
 });
 
-app.listen(3001, () => {
+app.listen(3000, () => {
   console.log("Server running on port 3001");
 });
